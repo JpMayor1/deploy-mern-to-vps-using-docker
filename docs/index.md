@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "Deploy MERN App to VPS Using Docker"
+  name: "MERN Deployment"
   text: "A complete, production-ready deployment guide."
   tagline: "Learn how to deploy a MERN application using Docker, VPS, Cloudflare, Nginx, and GitHub Actions CI/CD."
   actions:
