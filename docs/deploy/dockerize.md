@@ -2,6 +2,8 @@
 
 ## Backend Dockerfile
 
+Create **Dockerfile** file inside backend folder
+
 ```Dockerfile
 FROM node:18-alpine AS builder
 
@@ -30,6 +32,8 @@ CMD ["node", "dist/index.js"]
 
 ## Frontend Dockerfile
 
+Create **Dockerfile** file inside frontend folder
+
 ```Dockerfile
 FROM node:18-alpine AS builder
 
@@ -54,6 +58,8 @@ CMD ["nginx", "-g", "daemon off;"]
 ```
 
 ## Build Images
+
+Open a terminal and paste this:
 
 ```bash
 docker build -t <username>/<backend-image>:latest ./backend

@@ -1,5 +1,19 @@
 # Step 3 — Prepare VPS
 
+## Log in to Your VPS
+
+Use SSH to connect to your remote server:
+
+```bash
+ssh root@your_vps_ip
+```
+
+If using a non-root user:
+
+```bash
+ssh username@your_vps_ip
+```
+
 ## Install Docker
 
 ```bash
@@ -41,4 +55,5 @@ PORT=port
 MONGODB_URI=your-mongo-uri
 JWT_SECRET=your-secret
 ALLOWED_ORIGINS=https://yourdomain.com
+# Other .env data
 ```

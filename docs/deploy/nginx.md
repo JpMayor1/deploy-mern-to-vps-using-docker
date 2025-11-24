@@ -114,3 +114,23 @@ ln -s /etc/nginx/sites-available/yourproject /etc/nginx/sites-enabled/
 nginx -t
 systemctl reload nginx
 ```
+
+---
+
+# 🎉 Final Step — Test Your Deployment
+
+Now visit your domain in a browser:
+
+```
+https://yourdomain.com
+```
+
+Check:
+
+- The frontend loads successfully
+- API calls work (`/api/...`)
+- HTTPS is active (🔒 lock icon)
+- No SSL or proxy errors
+
+If everything works — **congratulations!** 🎉  
+Your MERN application is now fully deployed on your VPS with Docker, Nginx, and Cloudflare SSL.
